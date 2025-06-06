@@ -1,0 +1,27 @@
+# Django framework
+Django==5.2
+
+# To build a RESTful API
+djangorestframework==3.15.1
+
+# For environment variable management (API keys, secrets)
+python-decouple==3.8
+
+# OpenAI API client (for generating vocabulary questions/answers)
+openai==1.30.1
+
+# For making HTTP requests (useful for calling external APIs)
+requests==2.32.3
+
+# PostgreSQL database adapter (optional if you switch from SQLite)
+psycopg2-binary==2.9.9  # optional if using SQLite
+
+# To handle Cross-Origin Resource Sharing (CORS) for frontend/backend separation
+django-cors-headers==4.3.1
+
+# Integrate Tailwind CSS with Django (optional but nice for UI styling)
+django-tailwind==3.8.0  # optional
+
+# For writing and running tests
+pytest==8.2.1
+pytest-django==4.8.0
